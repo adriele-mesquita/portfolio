@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0; /* Remover margem padrão do h1 */
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+section {
+    padding: 2em;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.services-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    color: #FF0000
+}
+
+.portfolio-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.portfolio-image {
+    width: 30%;
+    margin-bottom: 1em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+input, button {
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+}
+button {
+    border: none;
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branca */
+    padding: 0.5em 1em; /* Adicionando algum espaçamento interno para melhor aparência */
+    cursor: pointer;
+}
